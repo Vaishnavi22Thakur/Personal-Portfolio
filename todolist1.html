@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>VAISHNAVI THAKUR
+       202501100200349
+       CSE-E
+</title>
+<style>
+body{
+    background-image:url("todo.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:poppins;
+}
+.design{
+    color:green;
+    text-align:center;
+    font-size:30px;
+    margin-top:-20px;
+}
+.design1{
+    color:blue;
+    text-align:right;
+    font-size:30px;
+    margin-bottom:10px;
+    margin-right:20px;
+}
+.box{
+    width:400px;
+    margin:0 auto;
+    background:rgba(255,255,255,0.7);
+    padding:20px;
+    border-radius:10px;
+    text-align:right;
+}
+.taskInput{
+    width:250px;
+    height:32px;
+    font-size:18px;
+    padding-left:5px;
+    border-radius:5px;
+    border:1px solid gray;
+}
+input[type="button"]{
+    font-size:20px;
+    padding:5px 15px;
+    cursor:pointer;
+    margin-top:10px;
+    border-radius:5px;
+    background-color:lightblue;
+}
+.taskTitle{
+    text-align:center;
+    font-size:40px;
+    color:black;
+    margin-top:40px;
+    font-weight:bold;
+    margin-left:30px;
+}
+#taskList{
+    width:450px;
+    margin:10px auto;
+    list-style:none;
+    padding:0;
+}
+li{
+    background:white;
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:8px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border:1px solid #ccc;
+}
+.taskBtn{
+    margin-left:10px;
+    padding:4px 10px;
+    font-size:16px;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+.doneBtn{
+    background-color:lightgreen;
+}
+
+.deleteBtn{
+    background-color:white;
+}
+.doneTask{
+    text-decoration:line-through;
+    color:green;
+    font-weight:bold;
+}
+.tickMark{
+    color:green;
+    font-size:22px;
+    font-weight:bold;
+    margin-right:10px;
+}
+</style>
+<script language="Javascript">
+function addtask(){
+    let taskText = document.getElementById("taskInput").value;
+    if(taskText.trim() === ""){
+        alert("Enter a task");
+        return;
+    }
+    let list = document.getElementById("taskList");
+    let item = document.createElement("li");    
+    let text = document.createElement("span");
+    text.innerHTML = taskText;
+    let tick = document.createElement("span");
+    tick.className = "tickMark";
+    tick.innerHTML = ""; 
+    let doneBtn = document.createElement("button");
+    doneBtn.innerHTML = "Done";
+    doneBtn.className = "taskBtn doneBtn";
+    doneBtn.onclick = function(){
+        text.classList.toggle("doneTask");
+        tick.innerHTML = tick.innerHTML === "" ? "✔" : "";
+    };
+    let deleteBtn = document.createElement("button");
+    deleteBtn.innerHTML = "Delete";
+    deleteBtn.className = "taskBtn deleteBtn";
+    deleteBtn.onclick = function(){
+        item.remove();
+    };
+    item.appendChild(tick);
+    item.appendChild(text);
+    item.appendChild(doneBtn);
+    item.appendChild(deleteBtn);
+    list.appendChild(item);
+    document.getElementById("taskInput").value = "";
+}
+</script>
+</head>
+<body>
+<h1 style="text-align:center; font-size:60px; margin-top:20px;">TO-DO LIST</h1>
+<p class="design">Hello!<br>Hope you are doing good<br></p>
+<div class="box">
+    <p class="design1">Add Task</p>
+    <input type="text" class="taskInput" id="taskInput"><br>
+    <input type="button" value="Add" onclick="addtask();"/>
+</div>
+<p class="taskTitle">Tasks</p>
+<ul id="taskList"></ul>
+</body>
+</html>

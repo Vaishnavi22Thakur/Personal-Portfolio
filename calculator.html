@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Vaishnavi Thakur
+       202501100200349
+       CSE-E
+</title>
+<style>
+body {
+    display:grid;
+    place-items:center;
+    height:100px;
+    background-image:url("booksright.jpg");    
+    background-size:contain;
+}
+.box{
+background-color:lightblue;
+border-radius:20px;
+border:3px solid black;
+width:550px;
+height:300px;
+display:flex;
+flex-direction:column;      
+justify-content:center;      
+align-items: center; 
+text-align:center;
+}
+input[type="button"]{
+color:white;
+background-color:lightgreen;
+font-size:20px;
+text-align=center;
+}
+input[type="text"]{
+color:brown;
+background-color:Beige;
+font-size:20px;
+text-align=center;
+}
+</style>
+<script language="JavaScript">
+function calculate(choice){
+    var a,b,answer,choice;
+    a=parseInt(document.Calculator.num1.value);
+    b=parseInt(document.Calculator.num2.value);
+    if(isNaN(a) || isNaN(b)){
+        answer="Error";
+        alert("Enter valid number.");
+    }
+    else if(choice=="Add"){
+        answer=a+b;
+    }
+    else if(choice=="Sub"){
+        answer=a-b;
+    }
+    else if(choice=="Mul"){
+        answer=a*b;
+    }
+    else if(choice=="Div"){
+        if(b==0){
+            alert("Cannot be divided by zero. Enter number other than zero.");
+            answer="Error"
+        }
+        else{
+            answer=a/b;
+        }
+    }
+    document.Calculator.c.value=answer;
+}
+</script>
+</head>
+<body style="text-align:center;">
+<h1 style="font-size:60px;">CALCULATOR</h1>
+<div class="box">
+    <form style="font-size:30px;" name="Calculator" method="get">
+    Enter first number:<input type="text" name="num1"/><br>
+    Enter second number:<input type="text" name="num2"/><br>
+    Choose the operation you want to perform:<br>
+    Addition:<input type="button" name="choice" value="Add" onclick="JavaScript:calculate('Add');"><br>
+    Subtraction:<input type="button" name="choice" value="Sub" onclick="JavaScript:calculate('Sub');"><br>
+    Multiplication:<input type="button" name="choice" value="Mul" onclick="JavaScript:calculate('Mul');"><br>
+    Division:<input type="button" name="choice" value="Div" onclick="JavaScript:calculate('Div');"><br>
+    <input type="text" name="c"/>
+    </form>
+</div>
+</body>
+</html>
