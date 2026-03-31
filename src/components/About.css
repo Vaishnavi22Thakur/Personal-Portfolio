@@ -1,0 +1,101 @@
+.about-section { background-color: #0c1220; }
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+.about-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-orbit {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed rgba(99,210,255,0.12);
+}
+.orbit-1 { width: 450px; height: 550px; animation: spin 20s linear infinite; }
+.orbit-2 { width: 450px; height: 550px; border-color: rgba(167,139,250,0.08); animation: spin 32s linear infinite reverse; }
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.about-card {
+  width: 350px; height: 425px;
+  background: rgba(15,22,40,0.9);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.about-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #63d2ff, transparent);
+}
+.about-avatar {
+  width: 125px; height: 125px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #63d2ff, #a78bfa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #0a0f1e;
+}
+.about-card-name {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #e8edf8;
+}
+.about-card-role {
+  font-size: 1.2rem;
+  color: #6b7a99;
+  text-align: center;
+  padding: 0 1rem;
+}
+.about-card-tags {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.about-content p {
+  color: #6b7a99;
+  margin-bottom: 1.25rem;
+  font-size: 1.2rem;
+  line-height: 1.75;
+}
+.about-stats {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255,255,255,0.07);
+}
+.stat { display: flex; flex-direction: column; gap: 2px; }
+.stat-num {
+  font-family: Poppins;
+  font-weight: 800;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #63d2ff, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.stat-label { font-size: 1.2rem; color: #6b7a99; }
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .about-visual { display: none; }
+}

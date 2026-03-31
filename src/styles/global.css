@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+
+:root {
+  --bg:           #080d1a;
+  --bg2:          #0c1220;
+  --border:       rgba(255,255,255,0.07);
+  --border-glow:  rgba(99,210,255,0.25);
+  --cyan:         #63d2ff;
+  --violet:       #a78bfa;
+  --pink:         #f472b6;
+  --text:         #e8edf8;
+  --muted:        #6b7a99;
+  --card-bg:      rgba(15,22,40,0.9);
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #080d1a !important;
+  color: #e8edf8;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; margin: 0; padding: 0; }
+section { position: relative; z-index: 1; }
+
+/* ── LAYOUT ── */
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 100px 5%;
+}
+
+.section-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #63d2ff;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  display: block;
+}
+
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+  color: #e8edf8;
+}
+
+.section-title .grad {
+  background: linear-gradient(90deg, #63d2ff, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── SCROLL REVEAL ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── TAG PILL ── */
+.tag {
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 0.7rem;
+  border: 1px solid rgba(99,210,255,0.25);
+  color: #63d2ff;
+  background: rgba(99,210,255,0.06);
+}
+
+@media (max-width: 768px) {
+  .section-inner { padding: 70px 5%; }
+}

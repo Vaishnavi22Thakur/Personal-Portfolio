@@ -1,0 +1,26 @@
+.diamond-divider-wrapper {
+  background-color: #080d1a;
+  padding: 2rem 0;
+  position: relative;
+  z-index: 1;
+}
+.diamond-divider {
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  gap: 1rem;
+}
+.diamond-divider::before,
+.diamond-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+}
+.gem {
+  width: 12px; height: 12px;
+  background: linear-gradient(135deg, #63d2ff, #a78bfa);
+  transform: rotate(45deg);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
