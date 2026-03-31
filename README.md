@@ -1,16 +1,108 @@
-# React + Vite
+# 🌐 Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built using React and Vite to showcase my projects, skills, and experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+👉 https://your-portfolio.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+- ⚡ Fast and optimized with Vite  
+- 🎨 Clean and modern UI design  
+- 🌙 Dark mode support  
+- 📱 Fully responsive layout  
+- 🎬 Smooth animations  
+- 📊 Project showcase with live demos  
+- 📬 Contact section  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ React  
+- ⚡ Vite  
+- 🎨 CSS  
+- 🎥 Framer Motion  
+
+---
+
+## 📂 Project Structure
+
+```
+Portfolio/
+├── public/
+│
+├── src/
+│   ├── assets/
+│
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── About.css
+│   │   ├── Achievements.jsx
+│   │   ├── Achievements.css
+│   │   ├── Contact.jsx
+│   │   ├── Contact.css
+│   │   ├── DiamondDivider.jsx
+│   │   ├── DiamondDivider.css
+│   │   ├── Experience.jsx
+│   │   ├── Experience.css
+│   │   ├── Footer.jsx
+│   │   ├── Footer.css
+│   │   ├── Hero.jsx
+│   │   ├── Hero.css
+│   │   ├── Navbar.jsx
+│   │   ├── Navbar.css
+│   │   ├── Projects.jsx
+│   │   ├── Projects.css
+│   │   ├── Skills.jsx
+│   │   ├── Skills.css
+│   │   └── WaveDivider.jsx
+│
+│   ├── styles/
+│   │   └── global.css
+│
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+├── .gitignore
+└── README.md
+```
+
+---
+
+## 🌍 Deployment
+
+This project is deployed on Vercel.
+
+---
+
+## 📸 Preview
+
+(Add screenshots of your portfolio here)
+
+---
+
+## 🙋‍♀️ About Me
+
+I am a passionate developer focused on building modern, responsive, and user-friendly web applications.
+
+---
+
+## 📬 Contact
+
+- 📧 Email: vaaishnavi4713@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/vaishnavi-thakur-9674b5381?
+- 🐙 GitHub: https://github.com/Vaishnavi22Thakur  
+
+---
