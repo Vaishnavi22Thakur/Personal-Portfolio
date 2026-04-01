@@ -14,12 +14,12 @@ export default function About() {
             <div className="about-card">
               <div className="about-avatar">VT</div>
               <div className="about-card-name">Vaishnavi Thakur</div>
-              <div className="about-card-role">Frontend Developer · Delhi, India</div>
+              <div className="about-card-role">Student . Ghaziabad, India</div>
               <div className="about-card-tags">
                 <span className="tag">React</span>
                 <span className="tag">HTML/CSS</span>
                 <span className="tag">JS</span>
-                <span className="tag">Figma</span>
+                <span className="tag">Node.js/Express.js</span>
               </div>
             </div>
           </div>

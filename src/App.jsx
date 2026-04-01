@@ -34,34 +34,28 @@ function App() {
 
       <Hero />
 
-      {/* Hero → About */}
       <WaveDivider fromColor="var(--bg)" toColor="var(--bg2)" flip={false} />
 
       <About />
 
-      {/* About → Skills */}
       <WaveDivider fromColor="var(--bg2)" toColor="var(--bg)" flip={true} />
 
       <Skills />
 
       <DiamondDivider />
 
-      {/* Skills → Experience */}
       <WaveDivider fromColor="var(--bg)" toColor="var(--bg2)" flip={false} />
 
       <Experience />
 
-      {/* Experience → Projects */}
       <WaveDivider fromColor="var(--bg2)" toColor="var(--bg)" flip={true} />
 
       <Projects />
 
-      {/* Projects → Achievements */}
       <WaveDivider fromColor="var(--bg)" toColor="var(--bg2)" flip={false} />
 
       <Achievements />
 
-      {/* Achievements → Contact */}
       <WaveDivider fromColor="var(--bg2)" toColor="var(--bg)" flip={true} />
 
       <Contact />
