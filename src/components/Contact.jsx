@@ -5,7 +5,7 @@ const CONTACT_LINKS = [
   { icon: '✉️', label: 'Email Me',  href: 'mailto:vaaishnavi4713@gmail.com' },
   { icon: '🐙', label: 'GitHub',    href: 'https://github.com/Vaishnavi22Thakur' },
   { icon: '💼', label: 'LinkedIn',  href: 'https://www.linkedin.com/in/vaishnavi-thakur-9674b5381?' },
-  { icon: '📄', label: 'Download CV', href: 'public/Resume.pdf' }
+  { icon: '📄', label: 'Download CV', href: '/Resume.pdf' }
 ];
 
 export default function Contact() {
