@@ -2,6 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/Personal-Portfolio/', // <-- Add this line
+  base: process.env.VERCEL ? '/' : '/Personal-Portfolio/',
   plugins: [react()],
 })
