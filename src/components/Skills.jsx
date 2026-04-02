@@ -30,9 +30,18 @@ const SKILLS_DATA = [
     accent: 'pink',
     items: [
       { name: 'Git / GitHub', pct: 85 },
-      { name: 'OOP', pct: 85 },
+      { name: 'VS Code', pct: 85 },
     ],
   },
+  {
+  title: 'Core Skills',
+  icon: '🧠',
+  accent: 'purple',
+    items: [
+      { name: 'DSA(Basic)', pct: 80 },
+      { name: 'OOP Concepts', pct: 85 },
+    ],
+  }
 ];
 
 export default function Skills() {
