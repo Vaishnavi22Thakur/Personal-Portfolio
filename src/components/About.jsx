@@ -28,18 +28,17 @@ export default function About() {
             <div className="section-label">About Me</div>
             <h2 className="section-title"><span className="grad">Who I Am</span></h2>
             <p>
+              Hello, I'm Vaishnavi Thakur, a first year CSE Student at KIET, Ghaziabad.
+            </p>
+            <p>
               I'm a passionate frontend developer with a knack for crafting beautiful,
               responsive interfaces. My journey began with curiosity and grew into a love
               for turning design into code that truly works.
             </p>
             <p>
-              I thrive at the intersection of design and development — whether it's building
-              an intuitive app, optimizing performance, or perfecting a pixel. I believe
-              great software is felt, not just used.
-            </p>
-            <p>
-              Currently exploring prompt engineering and AI-powered tools to push the
-              boundaries of what's possible on the web.
+              Currently, I’m exploring Data Structures & Algorithms and AI-powered tools 
+              to continuously improve my problem-solving skills and expand my capabilities 
+              as a developer.
             </p>
             <div className="about-stats">
               <div className="stat">
