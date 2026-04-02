@@ -60,6 +60,7 @@
 .skill-item-pct.cyan   { color: #63d2ff; font-size: 0.78rem; }
 .skill-item-pct.violet { color: #a78bfa; font-size: 0.78rem; }
 .skill-item-pct.pink   { color: #f472b6; font-size: 0.78rem; }
+.skill-item-pct.purple { color: #a855f7; font-size: 0.78rem; }
 .skill-bar {
   height: 4px;
   background: rgba(255,255,255,0.07);
@@ -78,4 +79,5 @@
 .skill-bar-fill.cyan   { background: linear-gradient(90deg, #63d2ff, #a78bfa); }
 .skill-bar-fill.violet { background: linear-gradient(90deg, #a78bfa, #f472b6); }
 .skill-bar-fill.pink   { background: linear-gradient(90deg, #f472b6, #63d2ff); }
+.skill-bar-fill.purple { background: linear-gradient(90deg, #a855f7, #63d2ff); }
 @media (max-width: 768px) { .skills-grid { grid-template-columns: 1fr; } }
