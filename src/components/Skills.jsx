@@ -38,10 +38,10 @@ const SKILLS_DATA = [
   icon: '🧠',
   accent: 'purple',
     items: [
-      { name: 'DSA(Basic)', pct: 80 },
+      { name: 'DSA', pct: 70 },
       { name: 'OOP Concepts', pct: 85 },
     ],
-  }
+  },
 ];
 
 export default function Skills() {
