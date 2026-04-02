@@ -42,6 +42,7 @@
 .skill-icon.cyan   { background: rgba(99,210,255,0.12);  color: #63d2ff; }
 .skill-icon.violet { background: rgba(167,139,250,0.12); color: #a78bfa; }
 .skill-icon.pink   { background: rgba(244,114,182,0.12); color: #f472b6; }
+.skill-icon.purple { background: rgba(168,85,247,0.12); color: #a855f7; }
 .skill-card-title {
   font-family: Poppins;
   font-weight: 700;

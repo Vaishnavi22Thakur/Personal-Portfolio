@@ -36,7 +36,7 @@ const SKILLS_DATA = [
   {
   title: 'Core Skills',
   icon: '🧠',
-  accent: 'green',
+  accent: 'purple',
     items: [
       { name: 'DSA', pct: 70 },
       { name: 'OOP Concepts', pct: 85 },
