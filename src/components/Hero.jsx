@@ -15,7 +15,7 @@ export default function Hero() {
         </div>
 
         <h1 className="hero-name">
-          Hi, I'm<br />
+          Hello, I'm<br />
           <span className="hero-name-grad">Vaishnavi Thakur</span>
         </h1>
 
