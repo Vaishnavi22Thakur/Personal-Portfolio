@@ -7,12 +7,12 @@ const SKILLS_DATA = [
     icon: '</>', 
     accent: 'cyan',
     items: [
-      { name: 'HTML', pct: 90 },
-      { name: 'CSS', pct: 90 },
+      { name: 'HTML', pct: 85 },
+      { name: 'CSS', pct: 85 },
       { name: 'JavaScript', pct: 80 },
-      { name: 'C++', pct: 90 },
-      { name: 'C', pct: 90 },
-      { name: 'Python', pct: 90 },
+      { name: 'C++', pct: 85 },
+      { name: 'C', pct: 80 },
+      { name: 'Python', pct: 85 },
     ],
   },
   {
@@ -21,7 +21,7 @@ const SKILLS_DATA = [
     accent: 'violet',
     items: [
       { name: 'React', pct: 80 },
-      { name: 'Tailwind CSS', pct: 85 },
+      { name: 'Tailwind CSS', pct: 80 },
     ],
   },
   {
@@ -39,7 +39,7 @@ const SKILLS_DATA = [
   accent: 'purple',
     items: [
       { name: 'DSA', pct: 70 },
-      { name: 'OOP Concepts', pct: 85 },
+      { name: 'OOP Concepts', pct: 80 },
     ],
   },
 ];
