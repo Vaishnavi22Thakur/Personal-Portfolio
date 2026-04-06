@@ -3,8 +3,17 @@ import './Projects.css';
 
 const PROJECTS_DATA = [
   {
-    emoji: '✈️',
+    emoji: '🤖🔍📰',
     thumbClass: 'thumb-1',
+    tags: ['REACT', 'JS'],
+    title: 'AI Fake News Detector',
+    desc: 'An intuitive task management app allowing users to add, delete, and mark tasks as complete. Clean design meets practical functionality.',
+    liveUrl: 'https://vaishnavi22thakur.github.io/AI-Fake-News-Detector/',
+    githubUrl: 'https://github.com/Vaishnavi22Thakur/AI-Fake-News-Detector',
+  },
+  {
+    emoji: '✈️',
+    thumbClass: 'thumb-2',
     tags: ['HTML', 'CSS', 'JS'],
     title: 'Travel Platform',
     desc: 'An interactive and responsive travel platform that helps users explore destinations effortlessly. Features include curated travel packages, high-quality imagery, and a seamless user experience across devices to inspire and guide every journey.',
@@ -13,7 +22,7 @@ const PROJECTS_DATA = [
   },
   {
     emoji: '🌤️',
-    thumbClass: 'thumb-2',
+    thumbClass: 'thumb-3',
     tags: ['HTML','CSS','JS','API'],
     title: 'Weather App',
     desc: 'A sleek, real-time weather application providing accurate updates for temperature, conditions, and location with an intuitive interface.',
@@ -22,21 +31,12 @@ const PROJECTS_DATA = [
   },
   {
     emoji: '✅',
-    thumbClass: 'thumb-3',
+    thumbClass: 'thumb-4',
     tags: ['HTML', 'CSS','JS'],
     title: 'Task Manager',
     desc: 'An intuitive task management app allowing users to add, delete, and mark tasks as complete. Clean design meets practical functionality.',
     liveUrl: 'https://vaishnavi22thakur.github.io/To-do-list/',
     githubUrl: 'https://github.com/Vaishnavi22Thakur/To-do-list',
-  },
-  {
-    emoji: '🤖🔍📰',
-    thumbClass: 'thumb-4',
-    tags: ['REACT', 'JS'],
-    title: 'AI Fake News Detector',
-    desc: 'An intuitive task management app allowing users to add, delete, and mark tasks as complete. Clean design meets practical functionality.',
-    liveUrl: 'https://vaishnavi22thakur.github.io/AI-Fake-News-Detector/',
-    githubUrl: 'https://github.com/Vaishnavi22Thakur/AI-Fake-News-Detector',
   },
 ];
 
