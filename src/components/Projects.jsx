@@ -29,6 +29,15 @@ const PROJECTS_DATA = [
     liveUrl: 'https://vaishnavi22thakur.github.io/To-do-list/',
     githubUrl: 'https://github.com/Vaishnavi22Thakur/To-do-list',
   },
+  {
+    emoji: '🤖🔍📰',
+    thumbClass: 'thumb-4',
+    tags: ['REACT', 'JS'],
+    title: 'AI Fake News Detector',
+    desc: 'An intuitive task management app allowing users to add, delete, and mark tasks as complete. Clean design meets practical functionality.',
+    liveUrl: 'https://vaishnavi22thakur.github.io/AI-Fake-News-Detector/',
+    githubUrl: 'https://github.com/Vaishnavi22Thakur/AI-Fake-News-Detector',
+  },
 ];
 
 export default function Projects() {

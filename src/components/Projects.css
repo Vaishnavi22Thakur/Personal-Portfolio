@@ -32,6 +32,7 @@
 .thumb-1 { background: linear-gradient(135deg, #0d2a4a, #1a1040); }
 .thumb-2 { background: linear-gradient(135deg, #0d1f3c, #1a2a4a); }
 .thumb-3 { background: linear-gradient(135deg, #1a0d3a, #2a1050); }
+.thumb-4 { background: linear-gradient(135deg, #1a0d3a, #2a1050); }
 .project-body { padding: 2.5rem; flex: 1; }
 .project-tags { display: flex; gap: 6px; margin-bottom: 0.75rem; flex-wrap: wrap; }
 .project-tag {
