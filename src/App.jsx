@@ -13,7 +13,6 @@ import WaveDivider from './components/WaveDivider';
 import DiamondDivider from './components/DiamondDivider';
 
 function App() {
-  // Scroll reveal observer
   useEffect(() => {
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver(

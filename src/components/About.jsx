@@ -6,8 +6,6 @@ export default function About() {
     <section id="about" className="about-section">
       <div className="section-inner">
         <div className="about-grid">
-
-          {/* Visual card */}
           <div className="about-visual">
             <div className="about-orbit orbit-1" />
             <div className="about-orbit orbit-2" />
@@ -22,8 +20,6 @@ export default function About() {
               </div>
             </div>
           </div>
-
-          {/* Text content */}
           <div className="about-content reveal">
             <div className="section-label">About Me</div>
             <h2 className="section-title"><span className="grad">Who I Am</span></h2>
@@ -50,7 +46,7 @@ export default function About() {
                 <span className="stat-label">Certifications</span>
               </div>
               <div className="stat">
-                <span className="stat-num">1</span>
+                <span className="stat-num">3</span>
                 <span className="stat-label">Hackathon</span>
               </div>
             </div>
