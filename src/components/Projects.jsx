@@ -48,7 +48,6 @@ export default function Projects() {
           <div className="section-label">What I've Built</div>
           <h2 className="section-title"><span className="grad">Projects</span></h2>
         </div>
-
         <div className="projects-grid">
           {PROJECTS_DATA.map((project) => (
             <div key={project.title} className="project-card reveal">

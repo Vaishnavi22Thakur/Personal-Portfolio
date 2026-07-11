@@ -25,6 +25,15 @@ const SKILLS_DATA = [
     ],
   },
   {
+    title: 'Backend',
+    icon: '⚛',
+    accent: 'yellow',
+    items: [
+      { name: 'Node.js', pct: 70 },
+      { name: 'Express.js', pct: 70 },
+    ],
+  },
+  {
     title: 'Tools',
     icon: '🛠',
     accent: 'pink',

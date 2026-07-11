@@ -17,6 +17,8 @@ export default function About() {
                 <span className="tag">React</span>
                 <span className="tag">HTML/CSS</span>
                 <span className="tag">JS</span>
+                <span className="tag">Node.js</span>
+                <span className="tag">Express.js</span>
               </div>
             </div>
           </div>
